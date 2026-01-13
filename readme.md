@@ -20,7 +20,9 @@ python extract.py {pdf_filename} {password}
 the script will create a file with {pdf_filename}.txt
 
 ### convert text to csv
-**user should manually check that there are 1 transaction per line before proceeding** that's why it's a seperate script.
+**user should manually check that each line contain exactly 1 transaction before proceeding**
+sometimes with long description the pdf would have 2 lines per transaction. please fix that manually.
+also that is why it is a seperate script.
 ```bash
 python format.py {txt_filename} {password}
 ```

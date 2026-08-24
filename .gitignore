@@ -1,5 +1,7 @@
 .venv/
+**/__pycache__
 
 *.pdf
 *.txt
 *.csv
+*.svg
